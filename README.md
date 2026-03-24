@@ -1,2 +1,2 @@
 # Codeforce
-Codeforces solutions pushed by CFPusher
+Codeforces solutions pushed by CFPusher :D
