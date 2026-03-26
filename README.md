@@ -119,3 +119,49 @@ Input: -5.00  →   5.00 / 2.23 / -5 / -5 / -5
 
 
 </details>
+
+<details>
+<summary>E. Deliv-e-droid</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado el número de paquetes entregados y colisiones, calcula el puntaje final:
+
+| Evento | Puntos |
+|--------|--------|
+| Paquete entregado | `+50` |
+| Colisión con obstáculo | `-10` |
+| Bonus (entregas > colisiones) | `+500` |
+
+**Restricciones:** `0 ≤ d, c ≤ 10⁶`
+
+**Ejemplos**
+```
+Input: d=5, c=2  →  730   (5×50 - 2×10 + 500)
+Input: d=0, c=10 →  -100  (0 - 10×10, sin bonus)
+```
+
+</details>
+
+
+
+<details>
+<summary>F. Manhattan vs Euclidean</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dados dos puntos `(x1, y1)` y `(x2, y2)`, calcula ambas distancias:
+
+| Distancia | Fórmula |
+|-----------|---------|
+| Manhattan | `\|x1−x2\| + \|y1−y2\|` |
+| Euclidiana | `√((x1−x2)² + (y1−y2)²)` |
+
+**Restricciones:** `-10⁹ ≤ x1, y1, x2, y2 ≤ 10⁹` · Error permitido: `10⁻⁶`
+
+**Ejemplo**
+```
+Input: 0 0 3 4  →  7 / 5.0000000000
+```
+
+</details>
