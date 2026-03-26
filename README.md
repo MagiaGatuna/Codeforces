@@ -1,4 +1,4 @@
-# Codeforce
+# Codeforces
 Codeforces solutions :D
 
 ## CPC - Primeros Pasos
