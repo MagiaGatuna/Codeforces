@@ -24,7 +24,7 @@ Hello, CPC!
 
 </details>
 
----
+
 
 <details>
 <summary>B. Basic Operations</summary>
@@ -58,7 +58,7 @@ Input: 10 -4  →   6 / 14 / -3 / -2 / -40 / -2.500000 / -2
 
 </details>
 
----
+
 
 <details>
 <summary>C. Grade Value</summary>
@@ -85,7 +85,7 @@ Input: F  →  Output: 0
 
 </details>
 
----
+
 
 <details>
 <summary>D. Real Number Operations</summary>
@@ -116,5 +116,6 @@ Input:  4.40  →   4.40 / 2.09 /  4 /  5 /  4
 Input:  4.90  →   4.90 / 2.21 /  4 /  5 /  5
 Input: -5.00  →   5.00 / 2.23 / -5 / -5 / -5
 ```
+
 
 </details>
