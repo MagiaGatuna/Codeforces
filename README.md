@@ -368,3 +368,25 @@ Input: 9875  →  Output: 2
 
 
 </details>
+Markdown
+<details>
+<summary>O. Count Divisibles (Hard version)</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado un entero `n`, cuenta cuántos números del `1` al `n` (inclusive) son divisibles por **2, 3 o 5**.
+
+**Lógica del Principio de Inclusión-Exclusión (PIE):**
+Para obtener el total sin contar elementos repetidos, sumamos los divisibles por cada número, restamos las intersecciones de dos en dos y sumamos la intersección de los tres:
+$$\text{Total} = \left\lfloor \frac{n}{2} \right\rfloor + \left\lfloor \frac{n}{3} \right\rfloor + \left\lfloor \frac{n}{5} \right\rfloor - \left\lfloor \frac{n}{6} \right\rfloor - \left\lfloor \frac{n}{10} \right\rfloor - \left\lfloor \frac{n}{15} \right\rfloor + \left\lfloor \frac{n}{30} \right\rfloor$$
+
+**Entrada:** Un solo entero `n` ($1 \le n \le 10^{18}$).  
+**Salida:** Un solo entero con la cuenta total.
+
+**Ejemplos**
+Input: 15                  →  Output: 11
+Input: 1000000000000000000 →  Output: 733333333333333334
+Input: 1                   →  Output: 0
+
+
+</details>
