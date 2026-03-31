@@ -186,6 +186,38 @@ Input:  7  →  3
 
 
 </details>
+
+<details>
+<summary>I. Alternating Circular Lock</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Tienes un candado circular con `m` posiciones ($0$ a $m-1$) en sentido horario. Partiendo de una posición inicial `n`, debes realizar cinco movimientos que alternan su dirección.
+
+| Movimiento | Dirección |
+|------------|-----------|
+| 1, 3, 5    | Horario (Clockwise) |
+| 2, 4       | Anti-horario (Counter-clockwise) |
+
+**Entrada:**
+- El entero `m` (posiciones totales).
+- El entero `n` (posición inicial).
+- Cinco enteros $k_1, k_2, k_3, k_4, k_5$ (pasos de cada movimiento).
+
+**Salida:** Cinco enteros separados por espacios que representen la posición resultante tras cada uno de los cinco movimientos.
+
+**Restricciones:** `2 ≤ m ≤ 10⁹`, `0 ≤ n < m`, `0 ≤ kᵢ < 10⁹`
+
+**Ejemplo**
+Input:
+10
+3
+4 1 2 7 3
+
+Output: 7 6 8 1 4
+
+
+</details>
 <details>
 <summary>M. Sort Three Numbers</summary>
 
