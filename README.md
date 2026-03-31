@@ -186,6 +186,39 @@ Input:  7  →  3
 
 
 </details>
+<details>
+<summary>H. Days between dates</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dadas dos fechas del mismo año (una en marzo y otra en diciembre), calcula cuántos días han pasado entre ellas. Se excluye el día inicial y se incluye el día final.
+
+| Mes | Días |
+|-----|------|
+| Marzo | 31 |
+| Abril | 30 |
+| Mayo | 31 |
+| Junio | 30 |
+| Julio | 31 |
+| Agosto | 31 |
+| Septiembre | 30 |
+| Octubre | 31 |
+| Noviembre | 30 |
+| Diciembre | 31 |
+
+**Entrada:** Dos enteros `x` (día de marzo) y `y` (día de diciembre).  
+**Salida:** Un solo entero con el total de días transcurridos.
+
+**Restricciones:** `1 ≤ x, y ≤ 31`
+
+**Ejemplos**
+Input: 1 1   →  Output: 275
+Input: 15 31 →  Output: 291
+
+
+</details>
+
+
 
 <details>
 <summary>I. Alternating Circular Lock</summary>
