@@ -252,6 +252,31 @@ Output: 7 6 8 1 4
 
 </details>
 <details>
+<summary>L. Complete Weeks in a Year</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado el día de la semana en que comienza un año no bisiesto (365 días), determina cuántas **semanas completas** tiene ese año. Una semana se considera completa si sus siete días (de lunes a domingo) pertenecen al mismo año.
+
+**Días de la semana:**
+- `0`: Lunes
+- `1`: Martes
+- `2`: Miércoles
+- `3`: Jueves
+- `4`: Viernes
+- `5`: Sábado
+- `6`: Domingo
+
+**Entrada:** Un entero `d` ($0 \le d \le 6$) que representa el día de la semana del 1 de enero.  
+**Salida:** Un solo entero con el número de semanas completas.
+
+**Ejemplos**
+Input: 0  →  Output: 52
+Input: 6  →  Output: 52
+
+
+</details>
+<details>
 <summary>M. Sort Three Numbers</summary>
 
 > ⏱ 1s · 💾 256 MB
