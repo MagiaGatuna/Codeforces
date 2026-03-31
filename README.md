@@ -251,6 +251,36 @@ Output: 7 6 8 1 4
 
 
 </details>
+
+<details>
+<summary>K. Triangle Geometry: Area and Perimeter</summary>
+
+> ⏱ 1s · 💾 256 MB
+
+Dado un triángulo $ABC$ y un punto $P$ en el lado $AB$ tal que $PC \perp AB$, calcula el área y el perímetro del triángulo a partir de las longitudes de los segmentos $AP$, $PB$ y $PC$.
+
+**Entrada:** Tres números reales positivos `AP`, `PB` y `PC`.  
+**Salida:** Dos números reales (área y perímetro) con un error máximo de $10^{-6}$.
+
+**Fórmulas sugeridas:**
+- Base $c = AP + PB$
+- Altura $h = PC$
+- Lados restantes mediante Pitágoras: $AC = \sqrt{AP^2 + PC^2}$ y $BC = \sqrt{PB^2 + PC^2}$
+
+**Restricciones:** $1 \le AP, PB, PC \le 10^9$
+
+**Ejemplos**
+Input: 1 1 1
+
+Output: 1.000000000 4.828427125
+
+Input: 1000000000 1000000000 1000000000
+
+Output: 1000000000000000000.000000000 4828427124.746190071
+
+
+</details>
+
 <details>
 <summary>L. Complete Weeks in a Year</summary>
 
