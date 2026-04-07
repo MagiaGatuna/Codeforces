@@ -57,3 +57,34 @@ Dada la temperatura $B$, debes determinar la presión $P$ y tu posición respect
 | `102` | `110` <br> `-1` | $P = 5 \times 102 - 400 = 110$. Como $110 > 100$, es debajo (-1). |
 
 </details>
+<details>
+<summary>C. Conference Break</summary>
+
+> ⏱ 1s · 💾 256 MB  
+> *Concurso Provincial de Informática de Villa Clara: 2025, Problema A*
+
+En una charla de divulgación científica, se debe realizar una pausa de duración fija de tal manera que la duración de la charla antes y después de dicha pausa sea lo más parecida posible.
+
+Si es posible hacer que ambas partes sean exactamente iguales, hazlo. De lo contrario, la **primera parte** (antes de la pausa) debe ser más larga que la segunda, minimizando la diferencia entre ambas. 
+
+La pausa debe caber dentro del tiempo total de la charla. Si la duración de la pausa es mayor o igual a la duración total de la charla, la pausa debe comenzar exactamente a la hora de inicio de la misma.
+
+**Entrada:**
+- La primera línea contiene un entero $A$ ($8 \le A \le 19$): la hora de inicio.
+- La segunda línea contiene un entero $B$ ($0 \le B \le 59$): el minuto de inicio.
+- La tercera línea contiene un entero $C$ ($8 \le C \le 19$): la hora de fin.
+- La cuarta línea contiene un entero $D$ ($0 \le D \le 59$): el minuto de fin.
+- La quinta línea contiene un entero $N$ ($1 \le N \le 360$): la duración de la pausa en minutos.
+
+*Nota: Todas las horas están en formato de 24 horas y el fin siempre es estrictamente después del inicio.*
+
+**Salida:**
+- Dos enteros separados por un espacio: $h$ ($0 \le h \le 23$) y $m$ ($0 \le m \le 59$), que representan la hora y el minuto en que debe comenzar la pausa.
+
+**Ejemplo:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `10` <br> `15` <br> `11` <br> `25` <br> `20` | `10 40` | Inicio 10:15, Fin 11:25 (70 min total). Pausa de 20 min deja 50 min de charla. Mitad = 25 min. Inicio pausa: 10:15 + 25 = 10:40. |
+
+</details>
