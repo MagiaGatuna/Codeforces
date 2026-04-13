@@ -170,6 +170,33 @@ Dado un entero $n$, tu tarea es determinar si $n$ es divisible por **2** o por *
 
 </details>
 <details>
+<summary>H. Lamp State</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Tienes una lámpara que tiene dos estados: `ON` (encendida) o `OFF` (apagada). Inicialmente, la lámpara está **ON**. Hay exactamente cinco botones, cada uno de los cuales puede presionarse como máximo una vez.
+
+Cada vez que se presiona un botón, la lámpara cambia su estado:
+- Si la lámpara está `ON`, pasa a `OFF`.
+- Si la lámpara está `OFF`, pasa a `ON`.
+
+Dados cinco enteros $b_1, b_2, b_3, b_4, b_5$ que representan si cada botón fue presionado ($1$) o no ($0$), determina el estado final de la lámpara.
+
+**Entrada:**
+- La única línea contiene cinco enteros $b_i$ ($0 \le b_i \le 1$): el estado de cada botón.
+
+**Salida:**
+- Imprime `ON` o `OFF` dependiendo del estado final de la lámpara.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `0 0 0 1 0` | `OFF` | Solo se presionó un botón. ON $\rightarrow$ OFF. |
+| `1 0 0 1 0` | `ON` | Se presionaron dos botones. ON $\rightarrow$ OFF $\rightarrow$ ON. |
+
+</details>
+<details>
 <summary>I. Triangle Classification</summary>
 
 > ⏱ 1s · 💾 256 MB  
