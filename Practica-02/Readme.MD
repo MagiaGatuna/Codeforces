@@ -169,3 +169,32 @@ Dado un entero $n$, tu tarea es determinar si $n$ es divisible por **2** o por *
 | `8` | `YES` | 8 es divisible por 2, pero no por 3. |
 
 </details>
+<details>
+<summary>I. Triangle Classification</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dados tres enteros positivos $a$, $b$ y $c$ que representan las longitudes de tres segmentos de recta, tu tarea es determinar si es posible construir un triángulo válido con ellos.
+
+Si se puede formar un triángulo, clasifícalo en una de las siguientes categorías:
+- **Equilateral**: los tres lados son iguales.
+- **Isosceles**: exactamente dos lados son iguales.
+- **Scalene**: todos los lados son diferentes.
+
+Si los tres segmentos no pueden formar un triángulo válido, imprime `Invalid`.
+
+**Entrada:**
+- La entrada consiste en tres enteros $a, b$ y $c$ ($1 \le a, b, c \le 10^9$): las longitudes de los segmentos.
+
+**Salida:**
+- Imprime una sola palabra describiendo el resultado: `Equilateral`, `Isosceles`, `Scalene` o `Invalid`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `3 3 3` | `Equilateral` | Los tres lados son iguales. |
+| `5 5 7` | `Isosceles` | Dos lados son iguales (5 y 5). |
+| `1 2 3` | `Invalid` | No cumple la desigualdad triangular ($1+2 \ngtr 3$). |
+
+</details>
