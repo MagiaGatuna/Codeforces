@@ -307,3 +307,32 @@ Dados tres enteros $a$, $b$ y $c$, que representan los ángulos (en grados) de u
 | `90 45 45` | `Right` | Tiene un ángulo de 90. |
 
 </details>
+<details>
+<summary>M. Circumferences Intersection</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Se te dan dos circunferencias en el plano, cada una definida por las coordenadas de su centro y su radio. Tu tarea es determinar el número de puntos que pertenecen a ambas circunferencias simultáneamente.
+
+Las posibles respuestas son:
+- `0`: Si las circunferencias no se intersectan.
+- `1`: Si las circunferencias son tangentes (interna o externamente).
+- `2`: Si las circunferencias se intersectan en exactamente dos puntos.
+- `Infinity`: Si las circunferencias coinciden completamente.
+
+**Entrada:**
+- La única línea de entrada contiene seis enteros $x_1, y_1, r_1, x_2, y_2, r_2$ ($|x_1|, |y_1|, |x_2|, |y_2| \le 10^4, 1 \le r_1, r_2 \le 10^4$).
+- $(x_1, y_1)$ es el centro de la primera circunferencia con radio $r_1$.
+- $(x_2, y_2)$ es el centro de la segunda circunferencia con radio $r_2$.
+
+**Salida:**
+- Imprime la respuesta correspondiente al número de intersecciones (`0`, `1`, `2` o `Infinity`).
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `-8792 8208 6993 -2291 -970 4371` | `2` | Las circunferencias se cruzan en dos puntos. |
+| `8724 5116 2846 -1720 -4181 7998` | `0` | Las circunferencias están demasiado lejos para tocarse. |
+
+</details>
