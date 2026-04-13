@@ -147,3 +147,25 @@ El estante se puede rotar en cualquier orientación y puedes intentar pasarlo a 
 | `10 2 3` <br> `3 10` | `YES` | La cara de 2x3 del estante cabe en la puerta de 3x10. |
 
 </details>
+<details>
+<summary>G. Divisible by Two or Three</summary>
+
+> ⏱ 1s · 💾 256 MB  
+
+Dado un entero $n$, tu tarea es determinar si $n$ es divisible por **2** o por **3**, pero **no por ambos** al mismo tiempo.
+
+**Entrada:**
+- La única línea de entrada contiene un solo entero $n$ ($1 \le n \le 10^9$).
+
+**Salida:**
+- Imprime `YES` si $n$ es divisible por 2 o por 3, pero no por ambos; de lo contrario, imprime `NO`.
+
+**Ejemplos:**
+
+| Input | Output | Nota |
+|-------|--------|------|
+| `6` | `NO` | 6 es divisible por 2 y por 3 simultáneamente. |
+| `9` | `YES` | 9 es divisible por 3, pero no por 2. |
+| `8` | `YES` | 8 es divisible por 2, pero no por 3. |
+
+</details>
