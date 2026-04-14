@@ -392,30 +392,30 @@ Un año se considera bisiesto si cumple las siguientes condiciones:
 
 </details>
 <details>
-<summary>O. Leap Year</summary>
+<summary>Q. Chocolate Time</summary>
 
 > ⏱ 1s · 💾 256 MB  
 
-Dado un entero $n$ que representa un año, tu tarea es determinar si es un **año bisiesto** (leap year).
+Pedro es un amante del dulce que disfruta de su nuevo reloj digital y de sus chocolates favoritos. 
 
-Un año se considera bisiesto si cumple las siguientes condiciones:
-1. Si $n$ es divisible por 400, es bisiesto.
-2. Si $n$ es divisible por 4 pero **no** por 100, es bisiesto.
-3. En cualquier otro caso, es un año común.
+Cada minuto, Pedro mira el reloj y come **un chocolate por cada dígito `4`** que aparezca en la hora actual (horas y minutos). Pedro solo come chocolates entre las **08:00 y las 20:59** (inclusive). Si el minuto actual está fuera de ese rango, no come nada.
+
+Tu tarea es calcular cuántos chocolates comerá Pedro en los **próximos dos minutos**, empezando desde la hora dada ($h:m$). 
+
+*Nota: Los dos minutos incluyen el minuto inicial dado ($h:m$) y el minuto inmediatamente siguiente ($h:m+1$).*
 
 **Entrada:**
-- La única línea de entrada contiene un solo entero $n$ ($1 \le n \le 10^9$): el año.
+- La única línea de entrada contiene dos enteros $h$ y $m$ ($0 \le h \le 23, 0 \le m \le 59$): la hora y el minuto inicial.
 
 **Salida:**
-- Imprime `YES` si $n$ es un año bisiesto; de lo contrario, imprime `NO`.
+- Imprime un solo entero: el número total de chocolates que Pedro comerá en esos dos minutos.
 
 **Ejemplos:**
 
 | Input | Output | Nota |
 |-------|--------|------|
-| `2000` | `YES` | Divisible por 400. |
-| `1900` | `NO` | Divisible por 4 y 100, pero no por 400. |
-| `2024` | `YES` | Divisible por 4 y no por 100. |
-| `2023` | `NO` | No es divisible por 4. |
+| `14 40` | `5` | Min 1 (14:40): tres '4'. Min 2 (14:41): dos '4'. Total = 5. |
+| `18 31` | `0` | Ni en 18:31 ni en 18:32 aparece el dígito '4'. |
+| `07 59` | `1` | 07:59 (fuera de rango). 08:00 (en rango, pero sin '4'). Total = 0. *(Si el sig. fuera 08:04, comería 1).* |
 
 </details>
